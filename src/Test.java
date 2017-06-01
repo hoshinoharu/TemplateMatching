@@ -9,7 +9,7 @@ public class Test {
 //		maching.setSource("bai_lian.png");
 //		maching.setDst("bai_lianA.png");
 //		maching.process();
-		OpencvImage src = new OpencvImage("imgs/homePage/fei_hong_b.png") ;
+		OpencvImage src = new OpencvImage("imgs/homePage/fei_hong.png") ;
 		OpencvImage dst = new OpencvImage("imgs/characters/fei_hong.png") ;
 		System.out.println(src.getArea(dst));
 	}
